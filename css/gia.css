@@ -1,0 +1,259 @@
+.tv1{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: -150px;
+}
+.txt1{
+    color: black;
+    margin-top: 250px;
+    margin-left: -140px;
+    position: absolute;
+}
+.tv2{
+    position: absolute;
+    margin-top: 100px;
+    margin-left: 130px;
+}
+.txt2{
+    color: black;
+    margin-top: 250px;
+    margin-left: 140px;
+    position: absolute;
+}
+.tv3{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: -150px;
+}
+.txt3{
+    color: black;
+    margin-top: 470px;
+    margin-left: -140px;
+    position: absolute;
+}
+.tv4{
+    position: absolute;
+    margin-top: 320px;
+    margin-left: 130px;
+}
+.txt4{
+    color: black;
+    margin-top: 470px;
+    margin-left: 140px;
+    position: absolute;
+}
+.tv5{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: -150px;
+}
+.txt5{
+    color: black;
+    margin-top: 690px;
+    margin-left: -140px;
+    position: absolute;
+}
+.tv6{
+    position: absolute;
+    margin-top: 540px;
+    margin-left: 130px;
+}
+.txt6{
+    color: black;
+    margin-top: 690px;
+    margin-left: 140px;
+    position: absolute;
+}
+.tv7{
+    position: absolute;
+    margin-top: 760px;
+    margin-left: -150px;
+}
+.txt7{
+    color: black;
+    margin-top: 910px;
+    margin-left: -140px;
+    position: absolute;
+}
+.tv8{
+    position: absolute;
+    margin-top: 760px;
+    margin-left: 130px;
+}
+.txt8{
+    color: black;
+    margin-top: 910px;
+    margin-left: 140px;
+    position: absolute;
+}
+*{
+    padding: 0px;
+    margin: 0px auto;
+}
+.content{
+    height: 970px;
+    width: 200px;
+}
+nav{
+    height: 40px;
+    width: 960px;
+    position: absolute;
+    border: black 1px solid;
+    margin-top: -970px;
+}
+.wrapper {
+    height: 1200px;
+    width: 960px;
+    background-color: rgb(255, 255, 255);
+    border: black 1px solid;
+    position: relative;
+}
+header{
+    height: 150px;
+    width: 960px;
+    background-color: rgb(217, 217, 217);
+    position: relative;
+}
+.logo{
+    position: absolute;
+}
+.c1{
+    position: absolute;
+    margin-left: 200px;
+    margin-top: 50px;
+    color: rgb(74, 159, 204);
+    text-shadow: -3px -4px 3px rgb(192, 167, 187);
+}
+.c2{
+    position: absolute;
+    margin-left: 500px;
+    margin-top: 100px;
+    color: rgb(74, 159, 204);
+    text-shadow: -3px -4px 3px rgb(207, 189, 156);
+}
+.nut{
+    position: absolute;
+    margin-left: 880px;
+    margin-top: 25px;
+}
+    
+.menu {
+    height: 40px;
+    width: 960px;
+    background-color: rgb(35, 66, 82);
+    list-style: none;
+    display: inline-flex;
+    font-size:larger;
+}
+a{
+    text-decoration: none;
+}
+li a {
+    text-decoration: none;
+}
+
+.menu>li>a {
+    line-height: 35px;
+    color: rgb(248, 182, 102);
+}
+
+.menu :hover {
+    background-color: #6aaf25;
+}
+
+.sub-menu1 li {
+    font-size:larger;
+    display: none;
+    background-color: rgb(35, 66, 82);
+}
+
+.menu :hover .sub-menu1 li {
+    display: block;
+}
+
+.sub-menu1>li>a {
+    line-height: 35px;
+    color: rgb(248, 182, 102);
+}
+
+aside{
+    height: 970px;
+    width: 200px;
+    background-color: rgb(55, 86, 149);
+    float: left;
+    margin-top: -930px;
+    position: relative;
+    border: black;
+}
+.Username, .Password {
+    position:relative;
+    margin:20px;
+}
+.text{
+    position: relative;
+}
+.inputText {
+    font-size: 15px;
+    width:90%;
+    height:25px;
+    border: black solid;
+    border-bottom:1px solid #B3BBCE;
+    outline:none;
+    color: #16169e;
+    font-weight:700;
+}
+.floating-label {
+    position: absolute;
+    pointer-events: none;
+    left:7px;
+    top: 10px;
+    font-size:11px;
+    color:#B3BBCE;
+    transition: 0.2s ease all;
+}
+.signup{
+        height:35px ;
+        width: 130px;
+        background-color: rgb(56, 138, 36) ;
+        border-radius: 5px;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        color: white;
+}
+.signup:hover {
+        transform: scale(1.1);
+}
+.dangky{
+        height:35px ;
+        width: 130px;
+        background-color: rgb(53, 141, 31) ;
+        border-radius: 5px;
+        border: none;
+        transition: all 0.3s ease-in-out;
+        color: white;
+        margin-top: 4px;
+}
+.dangky:hover {
+        transform: scale(1.1);
+}
+section{
+    height: 970px;
+    width: 200px;
+    background-color: rgb(55, 86, 149);
+    float: right;
+    margin-top: -930px;
+    position: relative;
+    border: black;
+}
+footer{
+    height: 40px;
+    width: 960px;
+    background-color: wheat;
+    margin-top: 40px;
+}
+.congty{
+    margin-left: 10px;
+}
+.diachi{
+    margin-left: 10px;
+}
